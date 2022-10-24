@@ -60,7 +60,7 @@ const agregarCarrito = (prodip)=>{
             prod.cantidad++
          }
       })
-   } else{
+   }else{
       const item = stock.find((prod)=>prod.ip === prodip)
       carrito.push(item)
       
@@ -95,7 +95,7 @@ const actualizarCarrito = ()=>{
    localStorage.setItem('carrito',JSON.stringify(carrito))
    })
 
-   precioTotal.innerText= carrito.reduce((acc,prod)=>acc + prod.price,  0 );
+   precioTotal.innerText= carrito.reduce((acc,prod)=>acc + prod.price * prod.cantidad,  0 );
 
 }
 
