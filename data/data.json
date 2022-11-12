@@ -1,0 +1,121 @@
+[
+    {
+       "id":1,
+       "name":"Iphone 11",
+       "price":700,
+       "cantidad":1,
+       "img":"./img/iphone11.jpg"
+    },
+    {
+       "id":2,
+       "name":"Iphone 11 Pro Max",
+       "price":900,
+       "cantidad":1,
+       "img":"./img/iphone11-promax.jpg"
+    },
+    {
+       "id":3,
+       "name":"Iphone 11 Pro",
+       "price":800,
+       "cantidad":1,
+       "img":"./img/iphone11-pro.jpg"
+    },
+    {
+       "id":4,
+       "name":"Iphone SE 2da generacion",
+       "price":600,
+       "cantidad":1,
+       "img":"./img/iphoneSE-2da.jpg"
+    },
+    {
+       "id":5,
+       "name":"Iphone 12 Mini",
+       "price":850,
+       "cantidad":1,
+       "img":"./img/iphone12-mini.png"
+    },
+    {
+       "id":6,
+       "name":"Iphone 12",
+       "price":900,
+       "cantidad":1,
+       "img":"./img/iphone12.png"
+    },
+    {
+       "id":7,
+       "name":"Iphone 12 Pro",
+       "price":1000,
+       "cantidad":1,
+       "img":"./img/iphone12-pro.jpg"
+    },
+    {
+       "id":8,
+       "name":"Iphone 12 Pro Max",
+       "price":1100,
+       "cantidad":1,
+       "img":"./img/iphone12-promax.jpg"
+    },
+    {
+       "id":9,
+       "name":"Iphone 13 Mini",
+       "price":1000,
+       "cantidad":1,
+       "img":"./img/iphone13-mini.png"
+    },
+    {
+       "id":10,
+       "name":"Iphone 13",
+       "price":1200,
+       "cantidad":1,
+       "img":"./img/iphone13.png"
+    },
+    {
+       "id":11,
+       "name":"Iphone 13 Pro",
+       "price":1300,
+       "cantidad":1,
+       "img":"./img/iphone13-pro.png"
+    },
+    {
+       "id":12,
+       "name":"Iphone 13 Pro Max",
+       "price":1400,
+       "cantidad":1,
+       "img":"./img/iphone13-promax.png"
+    },
+    {
+       "id":13,
+       "name":"Iphone SE 3ra generacion",
+       "price":800,
+       "cantidad":1,
+       "img":"./img/iphoneSE-3ra.png"
+    },
+    {
+       "id":14,
+       "name":"Iphone 14",
+       "price":1400,
+       "cantidad":1,
+       "img":"./img/iphone14.png"
+    },
+    {
+       "id":15,
+       "name":"Iphone 14 Plus",
+       "price":1700,
+       "cantidad":1,
+       "img":"./img/iphone14-plus.png"
+    },
+    {
+       "id":16,
+       "name":"Iphone 14 Pro",
+       "price":2000,
+       "cantidad":1,
+       "img":"./img/iphone14-pro.png"
+    },
+    {
+       "id":17,
+       "name":"Iphone 14 Pro Max",
+       "price":2500,
+       "cantidad":1,
+       "img":"./img/iphone14-promax.png"
+    }
+ ]

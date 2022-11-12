@@ -1,0 +1,155 @@
+
+
+main{
+    background-image: url(img/fondomorita.webp);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.navbar{
+    background: rgb(7, 66, 125);;
+    text-align: center;
+    
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.head{
+  
+    background-image: url(img/fondoop.png);
+    margin: 50px  ;
+    height: 650px;
+    padding-top: 200px;
+    padding-left:50px;
+    margin-bottom: 100px;
+    font-family: cursive;
+}
+
+.bienvenida{
+    
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 700px;
+    background-color: rgb(52, 114, 228);
+    border-radius: 20% 80% 20%/40% 10% 60%;
+    box-shadow: 2px 7px 20px -5px rgba(38, 63, 59, 0.788);
+}
+
+.productos{
+    background: linear-gradient(to right,  rgb(7, 66, 125), white);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+
+#modal{
+    width: 700px;
+    max-height: 100%;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    top: 0;
+    overflow-y: scroll;
+    transition: all 0.4s ease;
+    position: fixed;
+}
+
+.card-body{
+    text-align: center;
+    background-color: white;  
+    width: 300px;
+    height: 450px;
+    margin-top: 20px;
+    border-radius: 50px ;
+    border: solid 3px black;
+
+}
+
+.card-body2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 50px;
+    border: solid 3px black;
+    width: 500px;
+    margin-left: 0px;
+   
+}
+
+
+.boton-agregar{
+    border-radius: 10px ;
+    background-color: rgb(52, 114, 228);
+}
+
+.boton-eliminar{
+    background-color: rgb(52, 114, 228);
+    border-radius: 100px ;
+    
+}
+.card-body img{
+    width: 80%;
+    margin: 20px;
+
+}
+.card-body2 img{
+    width: 40% ;
+    margin: 20px 10px 20px 20px;
+
+}
+
+
+
+.contenedor-productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.carrito-contenedor{
+   
+    
+    align-items: center;
+    margin-left: 20%;
+}
+
+#headerETB{
+    background-color: rgb(7, 66, 125);
+  }
+
+
+.tarjeta{
+    text-align: center;
+    align-items: center;
+    
+}
+
+.grupo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+   
+    
+}
+
+.item-cuenta{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.precioProducto2{
+    height: 30px;
+    
+
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius:  15px ;
+    background-color: rgb(52, 114, 228);
+    border-radius: 50% 80% 20%/40% 54% 46% 60%;
+    
+    
+}

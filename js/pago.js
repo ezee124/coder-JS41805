@@ -1,0 +1,52 @@
+let contenedorResumen = document.getElementById("resumenCompra");
+
+const carrito = JSON.parse(localStorage.getItem('carrito')) ?? [];
+console.log(carrito);
+
+
+let confirmarCompra = document.getElementById('confirmar-compra')
+
+const precioTotal = document.getElementById('precioTotal')
+
+carrito.forEach((prod) => {
+    contenedorResumen.innerHTML += `
+    
+    <tr style="border: solid 3px black; text-align: center; ">      
+        <td class:"textoProd" >${prod.name}</td>
+        <td class:"textoProd">${prod.cantidad}</td>
+        <td class:"textoProd">$${prod.price}</td>    
+    
+    </tr> 
+    `;
+    localStorage.setItem("carrito", JSON.stringify(carrito)) 
+    
+})
+
+precioTotal.innerText = carrito.reduce((acc, prod)=> acc + prod.price * prod.cantidad, 0)
+
+
+
+const actualizarCarrito = () => {
+    contenedorResumen.innerHTML = "";
+    carrito.forEach(() => {       
+        localStorage.setItem("carrito", JSON.stringify(carrito));
+    })    
+}
+
+
+function validarTamaño(event){
+    if(event.target.value.length ==4 || event.target.value.length == 9 ||event.target.value.length == 14 ){
+        event.target.value += ' ';
+        
+            }
+
+    }
+
+
+const compraConfirmada = () => {    
+        if (carrito.length != 0){  
+            localStorage.removeItem("carrito", JSON.stringify(carrito));      
+        }           
+    }
+
+confirmarCompra.addEventListener("click", compraConfirmada); 
